@@ -1,0 +1,140 @@
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-size: 1.25vw;
+    font-size: 2.5vh;
+}
+#logo {
+    margin: 8px;
+    padding: 5px;
+    font-family: "Fredoka One", cursive;
+    width: 20%;
+    text-shadow:1px 1px 1px black;
+    
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body > header {
+    background-color: rgb(9, 66, 9);
+    color: white;
+    display: flex;
+    height: 18vh;
+    align-items: center;
+    justify-content: space-around;
+}
+#navul{
+    display: flex;
+
+}
+#navul > li {
+    padding: 5px;
+    margin: 10px;
+   
+}
+
+body > header > nav > ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+ .extra li > a {
+    
+    text-decoration: none;
+ }
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15%;
+}
+
+body > main article {
+    width: 75%;
+    margin: auto
+}
+
+#info-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: space-around;
+}
+
+.info-square{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgb(0, 0, 0, 0.2);
+    margin: 8px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.info-square img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.info-square:hover {
+    transform: scale(1.0);
+    box-shadow: 0px 2px 8px rgb(0, 0, 0, 0.4);
+}
+#main_content {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#main_content > div{
+    width: 80%;
+
+}
+
+form {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    
+}
+body > footer {
+  background-color:rgb(9, 66, 9);
+  
+}
+ footer > h2 {
+    text-align: center;
+    color: white;
+ }
+#footerul {
+    display: flex;
+    list-style: none;
+}
+#footerul > div > li {
+    padding: 2px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    justify-content: space-around;
+}
+#footerul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 50%;
+}
+
+
